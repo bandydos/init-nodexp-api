@@ -1,0 +1,27 @@
+{
+  "name": "node_express_fs",
+  "version": "1.0.0",
+  "description": "***Initial file structure for making Node Express API's.***",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandydos/init-nodexp-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bandydos/init-nodexp-api/issues"
+  },
+  "homepage": "https://github.com/bandydos/init-nodexp-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0"
+  }
+}
